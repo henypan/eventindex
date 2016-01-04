@@ -1,0 +1,21 @@
+{
+  "host": "localhost",
+  "index_name": "event_index",
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "fields": [
+    "Title",
+    "Number",
+    "Difficulty",
+    "LogTime",
+    "Method",
+    "Note"
+  ],
+  "default_mapping":
+  {
+    "type": "string",
+    "index": "not_analyzed"
+  }
+}
